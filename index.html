@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="./css/main.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container container">
+      <img class="header__logo" width="154px" height="24px" src="./images/Logo.svg" alt="Logo">
+      <button class="header__menu-button" type="button" data-menu-button>
+        <img class="header__icon-menu" width="24px" height="24px" src="./images/Burger.svg" alt="Бургер меню">
+        <img class="header__icon-close" width="24px" height="24px" src="./images/Close.svg" alt="Закрити">
+      </button>
+      <div class="header__menu" data-menu>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item"><a class="header__link" href="">Home</a></li>
+            <li class="header__item"><a class="header__link" href="">Service</a></li>
+            <li class="header__item"><a class="header__link" href="">Feature</a></li>
+            <li class="header__item"><a class="header__link" href="">Product</a></li>
+            <li class="header__item"><a class="header__link" href="">Testimonial</a></li>
+            <li class="header__item"><a class="header__link" href="">FAQ</a></li>
+          </ul>
+        </nav>
+        <div class="header__account">
+          <button class="header__button secondary-button secondary-button--small" type="button">Login</button>
+          <button class="header__button primary-button primary-button--small" type="button">Sing up</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero container">
+      <div class="hero__container swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide hero__slide">
+            <div>
+              <h1 class="hero__title">Lessons and insights <span class="hero__title-span">from 8 years</span></h1>
+              <p class="hero__paragraph">Where to grow your business as a photographer: site or social media?</p>
+              <button class="hero__button primary-button primary-button--medium" type="button">Register</button>
+            </div>
+            <img class="hero__img" width="391px" height="407px" src="./images/Illustration.png" alt="">
+          </div>
+          <div class="swiper-slide hero__slide">
+            <div>
+              <h1 class="hero__title">Lessons and insights <span class="hero__title-span">from 8 years</span></h1>
+              <p class="hero__paragraph">Where to grow your business as a photographer: site or social media?</p>
+              <button class="hero__button primary-button primary-button--medium" type="button">Register</button>
+            </div>
+            <img class="hero__img" width="391px" height="407px" src="./images/Illustration.png" alt="">
+          </div>
+          <div class="swiper-slide hero__slide">
+            <div>
+              <h1 class="hero__title">Lessons and insights <span class="hero__title-span">from 8 years</span></h1>
+              <p class="hero__paragraph">Where to grow your business as a photographer: site or social media?</p>
+              <button class="hero__button primary-button primary-button--medium" type="button">Register</button>
+            </div>
+            <img class="hero__img" width="391px" height="407px" src="./images/Illustration.png" alt="">
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+  </main>
+</body>
+<script type="module" src="./js/burger-menu.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script type="module" src="./js/swiper.js"></script>
+
+</html>
