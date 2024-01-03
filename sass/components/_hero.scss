@@ -1,0 +1,26 @@
+.hero {
+  &__slide {
+    display: flex;
+    align-items: center;
+    gap: 104px;
+  }
+  &__container {
+    padding: 96px 0;
+  }
+  &__title {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    color: $d-gray;
+    margin-bottom: 16px;
+    &-span {
+      color: $primary;
+    }
+  }
+  &__paragraph {
+    margin-bottom: 32px;
+  }
+  &__img {
+    display: flex;
+  }
+}
